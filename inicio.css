@@ -225,3 +225,23 @@
         .cart-icon:target .cart-message {
             display: block;
         }
+
+        .hamburger {
+            /* ... (estilos anteriores) ... */
+            transition: transform 0.3s;
+        }
+
+        .menu-toggle:checked + .hamburger {
+            transform: rotate(90deg);
+        }
+
+        .menu-list {
+            /* ... (estilos anteriores) ... */
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease-out;
+        }
+
+        .menu-toggle:checked ~ .menu-list {
+            max-height: 500px; /* Ajusta según tu contenido */
+        }

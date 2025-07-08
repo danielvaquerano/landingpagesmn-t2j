@@ -1,0 +1,127 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIMAN - Inicio</title>
+    <link rel="stylesheet" href="fit3.css">
+</head>
+<body>
+  <div id="cart-notification" class="cart-notification">
+        Producto añadido al carrito! (Total: <span id="cart-total">0</span>)
+    </div>
+  <header>
+        <div class="container">
+            <div class="header-content">
+                <!-- Logo -->
+                <div class="logo">
+                    <a href="inicio.html">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhcp_dYymJesa-As3xXoI3J-SzgiuUp3D7KQ&s" alt="SIMAN">
+                    </a>
+                </div>
+
+                <!-- Buscador -->
+                <div class="search-box">
+                    <form action="/search" method="get">
+                        <input type="text" placeholder="Buscar productos...">
+                        <button type="submit"><i class="fas fa-search"></i></button>
+                    </form>
+                </div>
+
+                <!-- Carrito y usuario -->
+                <div class="user-actions">
+                    <a href="#" class="cart-icon">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="cart-count">0</span>
+                    </a>
+                    <a href="#" class="user-icon"><i class="fas fa-user"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Menú de categorías -->
+        <nav class="menu">
+            <div class="container">
+                <ul>
+                    <li><a href="#">Tecnología</a></li>
+                    <li><a href="#">Ropa</a></li>
+                    <li><a href="#">Hogar</a></li>
+                    <li><a href="#">Ofertas</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+  
+  <div class="content">
+    <section class="presentacion">
+        <img src="https://mx-media.hptiendaenlinea.com/catalog/product/cache/b3b166914d87ce343d4dc5ec5117b502/a/6/a6ql1la_2imagenprincipalsintexto-.jpg" alt="OnCloud Monster 2" />
+        
+        <div class="info">
+          <h2>$899.99 USD</h2>
+          <p>Intel® Core™ Ultra 7 155H (hasta 4,8 GHz, con tecnología Intel® Turbo Boost, 24 MB de caché L3, 16 núcleos y 22 subprocesos).</p>
+          
+
+    <button class="add-to-cart-btn" href="#cart-update-1">Comprar ahora</button>
+    <button class="add-to-cart-btn" href="#cart-update-2">Consultar por Whatsapp</button>
+
+    <!-- elementos ocultos para el contador -->
+    <div class="cart-update" id="cart-update-1">
+        <a href="#cart-notification" class="update-cart" data-increment="1"></a>
+    </div>
+    <div class="cart-update" id="cart-update-2">
+        <a href="#cart-notification" class="update-cart" data-increment="1"></a>
+    </div>
+      </section>
+    
+      <section class="caracteristicas">
+        <h2>Características</h2>
+        <div class="grid-caracteristicas">
+          <div class="card">
+            <h3>Chipset®</h3>
+            <p>SoC integrado Intel®.</p>
+          </div>
+          <div class="card">
+            <h3>Familia de procesador</h3>
+            <p>Procesador Intel® Core™ Ultra 7.</p>
+          </div>
+          <div class="card">
+            <h3>Memoria, estándar</h3>
+            <p>RAM LPDDR5x-6400 MHz 32 GB (integrada).</p>
+          </div>
+          <div class="card">
+            <h3>Descripción del disco duro</h3>
+            <p>Unidad de estado sólido (SSD) PCIe® NVMe™ M.2 de 1 TB.</p>
+          </div>
+          <div class="card">
+            <h3>Servicios en la nube</h3>
+            <p>Almacenamiento en Dropbox de 25 GB durante 12 meses.</p>
+          </div>
+        </div>
+      </section>
+    
+      <aside class="testimonios">
+        <h2>Opiniones</h2>
+        <div class="comentarios">
+          <blockquote>
+            “ Buenos Gráficos Intel 500 nits.”  
+            <span>- Laura.</span>
+          </blockquote>
+          <blockquote>
+            “Excelente Funciones de audio”  
+            <span>- Raul.</span>
+          </blockquote>
+        </div>
+      </aside>    
+  </div>
+  <footer>
+        <div class="container">
+            <div class="footer-links">
+                <a href="#">Inicio</a>
+                <a href="#">Contacto</a>
+                <a href="#">Términos y condiciones</a>
+            </div>
+            <p>&copy; 2025 Siman. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+    
+</body>
+</html>

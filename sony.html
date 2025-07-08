@@ -1,0 +1,131 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIMAN - Inicio</title>
+    <link rel="stylesheet" href="fit3.css">
+</head>
+<body>
+  <div id="cart-notification" class="cart-notification">
+        Producto añadido al carrito! (Total: <span id="cart-total">0</span>)
+    </div>
+  <header>
+        <div class="container">
+            <div class="header-content">
+                <!-- Logo -->
+                <div class="logo">
+                    <a href="inicio.html">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhcp_dYymJesa-As3xXoI3J-SzgiuUp3D7KQ&s" alt="SIMAN">
+                    </a>
+                </div>
+
+                <!-- Buscador -->
+                <div class="search-box">
+                    <form action="/search" method="get">
+                        <input type="text" placeholder="Buscar productos...">
+                        <button type="submit"><i class="fas fa-search"></i></button>
+                    </form>
+                </div>
+
+                <!-- Carrito y usuario -->
+                <div class="user-actions">
+                    <a href="#" class="cart-icon">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="cart-count">0</span>
+                    </a>
+                    <a href="#" class="user-icon"><i class="fas fa-user"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Menú de categorías -->
+        <nav class="menu">
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="hamburger">☰</label>
+            <ul class="menu-list">
+                <!-- Tus elementos de menú actuales aquí -->
+                <li><a href="#">Tecnología</a></li>
+                <li><a href="#">Ropa</a></li>
+                <li><a href="#">Hogar</a></li>
+                <li><a href="#">Ofertas</a></li>
+            </ul>
+        </nav>
+    </header>
+  
+  <div class="content">
+    <section class="presentacion">
+        <img src="https://www.sony.com.sv/image/10517a29b497c2f31fb2cc1d1839f93f?fmt=png-alpha&wid=720" alt="OnCloud Monster 2" />
+        <img src="https://www.sony.com.sv/image/009280ddf10c290558fa05244041e878?fmt=png-alpha&wid=720" alt="OnCloud Monster 2" />
+        <img src="https://www.sony.com.sv/image/f3f1e4cde7ef052790bfd64ce85f39bb?fmt=png-alpha&wid=600" alt="OnCloud Monster 2" />
+        
+        
+        <div class="info">
+          <h2>$349.99 USD</h2>
+          <p>SOLO MÚSICA, NADA MÁS.</p>
+          
+
+    <button class="add-to-cart-btn" href="#cart-update-1">Comprar ahora</button>
+    <button class="add-to-cart-btn" href="#cart-update-2">Consultar por Whatsapp</button>
+
+    <!-- elementos ocultos para el contador -->
+    <div class="cart-update" id="cart-update-1">
+        <a href="#cart-notification" class="update-cart" data-increment="1"></a>
+    </div>
+    <div class="cart-update" id="cart-update-2">
+        <a href="#cart-notification" class="update-cart" data-increment="1"></a>
+    </div>
+      </section>
+    
+      <section class="caracteristicas">
+        <h2>Características</h2>
+        <div class="grid-caracteristicas">
+          <div class="card">
+            <h3>La tecnología que lo hace posible®</h3>
+            <p>La tecnología de sensor de ruido dual, con dos micrófonos en cada audífono, captura el ruido ambiental y transmite los datos al procesador de Noise Cancelling HD QN1.</p>
+          </div>
+          <div class="card">
+            <h3>Control de sonido</h3>
+            <p>Ajusta el sonido ambiente con la aplicación Sony | Sound Connect para cancelar el ruido sin aislarte de sonidos importantes, como avisos de megafonía mientras te desplazas.</p>
+          </div>
+          <div class="card">
+            <h3>Aplicación Sony </h3>
+            <p>Con Sony | Sound Connect, el control de sonido ambiental permite ajustar el volumen del sonido de fondo y da la opción de escuchar solo voces.</p>
+          </div>
+          <div class="card">
+            <h3>Fast Pair</h3>
+            <p>Los WH-1000XM4 son compatibles con Fast Pair, la nueva y útil función de Google que permite localizar los audífonos con un tono o comprobando su última ubicación registrada en la aplicación Encontrar mi dispositivo de Google.</p>
+          </div>
+          <div class="card">
+            <h3>Estructura plegable giratoria</h3>
+            <p>Los audífonos se pliegan hacia dentro, de manera que caben perfectamente en una bolsa compacta.</p>
+          </div>
+        </div>
+      </section>
+    
+      <aside class="testimonios">
+        <h2>Opiniones</h2>
+        <div class="comentarios">
+          <blockquote>
+            “Nunca había oido un sonido tan genial, son una locura.”  
+            <span>- Lorena.</span>
+          </blockquote>
+          <blockquote>
+            “Excelente sonido, perfectos para el día a día.”  
+            <span>- Jenifer.</span>
+          </blockquote>
+        </div>
+      </aside>    
+  </div>
+  <footer>
+        <div class="container">
+            <div class="footer-links">
+                <a href="#">Inicio</a>
+                <a href="#">Contacto</a>
+                <a href="#">Términos y condiciones</a>
+            </div>
+            <p>&copy; 2025 Siman. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+    
+</body>
+</html>

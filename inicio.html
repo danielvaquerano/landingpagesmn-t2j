@@ -40,14 +40,15 @@
 
         <!-- Menú de categorías -->
         <nav class="menu">
-            <div class="container">
-                <ul>
-                    <li><a href="#">Tecnología</a></li>
-                    <li><a href="#">Ropa</a></li>
-                    <li><a href="#">Hogar</a></li>
-                    <li><a href="#">Ofertas</a></li>
-                </ul>
-            </div>
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="hamburger">☰</label>
+            <ul class="menu-list">
+                <!-- Tus elementos de menú actuales aquí -->
+                <li><a href="#">Tecnología</a></li>
+                <li><a href="#">Ropa</a></li>
+                <li><a href="#">Hogar</a></li>
+                <li><a href="#">Ofertas</a></li>
+            </ul>
         </nav>
     </header>
 
@@ -57,7 +58,7 @@
             <h2 class="section-title">Productos Destacados</h2>
             <div class="grid">
                 <!-- Producto 1: Laptop -->
-                <div class="product-card">
+                <div class="product-card" onclick="window.location.href='hp.html'">
                     <div class="product-img">
                         <img src="https://mx-media.hptiendaenlinea.com/catalog/product/cache/b3b166914d87ce343d4dc5ec5117b502/a/6/a6ql1la_2imagenprincipalsintexto-.jpg" alt="Laptop HP">
                     </div>
@@ -70,7 +71,7 @@
                 </div>
 
                 <!-- Producto 2: Smartphone -->
-                <div class="product-card">
+                <div class="product-card" onclick="window.location.href='i16.html'">
                     <div class="product-img">
                         <img src="https://www.apple.com/v/iphone-16/f/images/overview/design/all_colors__flhn5cmb1t26_xlarge.jpg" alt="iPhone 13">
                     </div>
@@ -83,7 +84,7 @@
                 </div>
 
                 <!-- Producto 3: Audífonos -->
-                <div class="product-card">
+                <div class="product-card" onclick="window.location.href='sony.html'">
                     <div class="product-img">
                         <img src="https://www.sony.com.sv/image/009280ddf10c290558fa05244041e878?fmt=png-alpha&wid=720" alt="Audífonos Sony" alt="Audífonos Sony">
                     </div>
@@ -95,8 +96,8 @@
                     </div>
                 </div>
 
-                <!-- Producto 4: Camisa -->
-                <div class="product-card" onclick="window.location.href='producto.html'">
+                <!-- Producto 4: fit3 -->
+                <div class="product-card" onclick="window.location.href='fit3.html'">
                     <div class="product-img">
                         <img src="https://shop.samsung.com/latin/cac/pub/media/catalog/product/cache/a69170b4a4f0666a52473c2224ba9220/s/m/sm-r390_000-all.png" alt="OnCloud Monster 2" />
                     </div>
@@ -104,7 +105,7 @@
                         <h3 class="product-title">SmartBand FIT 3</h3>
                         <p class="product-price">$49.99</p>
                         <p class="product-description">negro, rosa, plata</p>
-                        <a href="producto.html" class="add-to-cart">Añadir al carrito</a>
+                        <a href="fit3.html" class="add-to-cart">Añadir al carrito</a>
                     </div>
                 </div>
             </div>

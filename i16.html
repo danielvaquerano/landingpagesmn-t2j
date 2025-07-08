@@ -1,0 +1,135 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIMAN - Inicio</title>
+    <link rel="stylesheet" href="fit3.css">
+</head>
+<body>
+  <div id="cart-notification" class="cart-notification">
+        Producto añadido al carrito! (Total: <span id="cart-total">0</span>)
+    </div>
+  <header>
+        <div class="container">
+            <div class="header-content">
+                <!-- Logo -->
+                <div class="logo">
+                    <a href="inicio.html">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhcp_dYymJesa-As3xXoI3J-SzgiuUp3D7KQ&s" alt="SIMAN">
+                    </a>
+                </div>
+
+                <!-- Buscador -->
+                <div class="search-box">
+                    <form action="/search" method="get">
+                        <input type="text" placeholder="Buscar productos...">
+                        <button type="submit"><i class="fas fa-search"></i></button>
+                    </form>
+                </div>
+
+                <!-- Carrito y usuario -->
+                <div class="user-actions">
+                    <a href="#" class="cart-icon">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="cart-count">0</span>
+                    </a>
+                    <a href="#" class="user-icon"><i class="fas fa-user"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Menú de categorías -->
+        <nav class="menu">
+          <div class="container">
+                <input type="checkbox" id="menu-toggle" class="menu-toggle">
+                <label for="menu-toggle" class="hamburger">☰</label>
+                <ul class="menu-list">
+                    <!-- Tus elementos de menú actuales aquí -->
+                    <li><a href="#">Tecnología</a></li>
+                    <li><a href="#">Ropa</a></li>
+                    <li><a href="#">Hogar</a></li>
+                    <li><a href="#">Ofertas</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+  
+  <div class="content">
+    <section class="presentacion">
+        <img src="https://www.apple.com/la/iphone-16/images/overview/product-viewer/iphone/all_colors__flhn5cmb1t26_medium.jpg" alt="OnCloud Monster 2" />
+        <img src="https://www.apple.com/v/iphone-16/f/images/overview/camera-system/hero/hero_camera__bsixees3ujte_medium.jpg" alt="OnCloud Monster 2" />
+        <img src="https://www.apple.com/la/iphone-16/images/overview/camera-system/spatial/hero_spatial__gna2d6arpimq_medium.png" alt="OnCloud Monster 2" />
+        <img src="https://www.apple.com/v/iphone-16/f/images/overview/action-button/hw__bpmis1v46k2u_medium.png" alt="OnCloud Monster 2" />
+
+        
+        <div class="info">
+          <h2>$999 USD</h2>
+          <p>El iPhone 16 está diseñado para disfrutar Apple Intelligence, el sistema 
+            de inteligencia personal que te ayuda a escribir, expresarte y hacer de todo con mucha facilidad.</p>
+          
+
+    <button class="add-to-cart-btn" href="#cart-update-1">Comprar ahora</button>
+    <button class="add-to-cart-btn" href="#cart-update-2">Consultar por Whatsapp</button>
+
+    <!-- elementos ocultos para el contador -->
+    <div class="cart-update" id="cart-update-1">
+        <a href="#cart-notification" class="update-cart" data-increment="1"></a>
+    </div>
+    <div class="cart-update" id="cart-update-2">
+        <a href="#cart-notification" class="update-cart" data-increment="1"></a>
+    </div>
+      </section>
+    
+      <section class="caracteristicas">
+        <h2>Características</h2>
+        <div class="grid-caracteristicas">
+          <div class="card">
+            <h3>Medio ambiente</h3>
+            <p>Todos los centros de datos de Apple, incluso los de Apple Intelligence, usan electricidad 100% renovable.</p>
+          </div>
+          <div class="card">
+            <h3>El iPhone 16™</h3>
+            <p>Tiene más metales reciclados que nunca: más de un 95% de litio reciclado en la batería 9, oro 100% reciclado en el revestimiento del conector USB-C y en los alambres de las cámaras, y lámina de cobre 100% reciclada en el cargador inductivo MagSafe.</p>
+          </div>
+          <div class="card">
+            <h3>iPhone y Mac®</h3>
+            <p>Con Duplicación del iPhone puedes ver la pantalla de tu teléfono en la Mac y controlarlo a distancia. Las funcionalidades de Continuidad te permiten responder llamadas y mensajes directamente desde la Mac.</p>
+          </div>
+          <div class="card">
+            <h3>Diseño</h3>
+            <p>Por primera vez, el empaque del iPhone 16 está hecho 100% de fibra.10 Además, al ser más delgado, contribuye a reducir las emisiones de carbono durante el envío.</p>
+          </div>
+          <div class="card">
+            <h3>Privacidad</h3>
+            <p>Apple Intelligence protege tu privacidad en todo momento. Con el procesamiento en el dispositivo y Computación Privada en la Nube, nadie excepto tú podrá acceder a tus datos. Ni siquiera Apple.</p>
+          </div>
+        </div>
+      </section>
+    
+      <aside class="testimonios">
+        <h2>Opiniones</h2>
+        <div class="comentarios">
+          <blockquote>
+            “Nunca había corrido tan cómodo. Las Monster 2 son una locura.”  
+            <span>- Fiorella V.</span>
+          </blockquote>
+          <blockquote>
+            “Excelente amortiguación, perfectas para maratón.”  
+            <span>- Kenya H.</span>
+          </blockquote>
+        </div>
+      </aside>    
+  </div>
+  <footer>
+        <div class="container">
+            <div class="footer-links">
+                <a href="#">Inicio</a>
+                <a href="#">Contacto</a>
+                <a href="#">Términos y condiciones</a>
+            </div>
+            <p>&copy; 2025 Siman. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+    
+</body>
+</html>
