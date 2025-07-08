@@ -1,9 +1,4 @@
-# kodigo-tests
-Repositorio para practicas de Kodigo. Es público y lo utilizaremos en prácticas en clase
+# kodigo-tests-landingpage
 
-- Clonarán este repositorio
-- Harán sus cambios
-- Crearán su rama
-- Harán su commit
-- Harán pull de su código en su rama
+tarea 2 de julio de copia página siman.
 
